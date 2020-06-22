@@ -9,3 +9,5 @@ soal untuk backend developer
 5. Lakukan pull request ke repository ini dengan branch nama lengkap
 
 Implementasi hanya menggunakan REST API
+
+link postman : https://www.getpostman.com/collections/b60bddb0a96648a1ce5c
