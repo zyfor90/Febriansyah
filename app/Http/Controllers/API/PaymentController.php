@@ -40,7 +40,7 @@ class PaymentController extends Controller
             'book_id' => $request->book_id,
             'total_amount' => $bookPrice,
             'total_tax_and_ppn' => $adminFee + $ppn,
-            'actual_amount' => $bookPrice - ($adminFee + $ppn)
+            'actual_amount' => $bookPrice + ($adminFee + $ppn)
         ]);
 
         return response()->json(['status' => 'success', 'message' => 'Buku Berhasil di Sewa'], 200);
